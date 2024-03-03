@@ -64,11 +64,11 @@ services:
     #             capabilities: [gpu]
 
     # 【WEB_PORT暴露方法1: 适用于Linux】与宿主的网络融合
-    network_mode: "host"
+    
 
     # 【WEB_PORT暴露方法2: 适用于所有系统】端口映射
     # ports:
-    #   - "12345:12345"  # 12345必须与WEB_PORT相互对应
+    #   - "12345:12345"
 
     # 启动容器后，运行main.py主程序
     command: >
